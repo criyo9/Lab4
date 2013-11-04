@@ -42,7 +42,7 @@ font-size: 15px;
 .firstUL {padding: 0px; margin: 0px; background-color: #3285ef;}
 				
 .firstUL li {
-background: url(link_sprite_img.jpg) no-repeat scroll 0 0;
+background: url(https://fronter.com/uia/links/files.phtml/727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg) no-repeat scroll 0 0;
 display: inline;
 font-size: 16pt;
 font-weight: bold;
@@ -52,7 +52,7 @@ cursor: pointer;
 }
 				
 .firstUL li.selected {
-background: url(link_sprite_img.jpg) no-repeat scroll 0px -58px;
+background: url(https://fronter.com/uia/links/files.phtml/727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg) no-repeat scroll 0px -58px;
 color: #ffffff;
 font-weight: bold;
 }
