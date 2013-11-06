@@ -1,74 +1,60 @@
 ﻿body{
-font-family: Arial,Verdana,Tahoma;
-margin: 0px;
-padding: 0px;
-text-decoration: none;
+	margin:0;
+	padding:0;
 }
 
 #body-container{
-width:415px;
-height:1200px;
-margin:0 auto;
-border:1px solid #3285ef;
+	width:415px;
+	height:500px;
+	margin:0 auto;
+	border:1px solid #3285ef;
 }
-				
-#body-container.glossary-container{
-clear:both;
+
+#body-container .glossary-container {
+	clear: both;
 }
-				
-#body-container.content-container {
-height:30px;
-width:415px;
-overflow: auto;
-font-size: 10pt;
-clear: both;
+
+#body-container .content-container {
+	height:432px;
+	width:415px;
+	overflow:auto;
+	font-family:Arial, Verdana,Tahoma;
+	font-size:10pt;
+	clear:both;
 }
-				
-#body-container .content-container div {
-padding-left: 10px;
-border-bottom: 1px #666666 solid;
+
+#body-container .content-container div{
+	padding-left:10px;
+	border-bottom:1px #666666 solid;
 }
-				
-#body-container .content-container p.return-to-top{
-color: #3399FF;
-text-decoration: underline;
-text-align: right;
-z-index: -1;
-margin-right: 10px;
-cursor: pointer;
-font-size: 15px;
+
+#body-container .content-container p.return-to-top {
+	color:#0066FF;
+	text-decoration:underline;
+	text-align:right;
+	margin-right:10px;
+	cursor:pointer;
 }
-				
-.firstUL {padding: 0px; margin: 0px; background-color: #3285ef;}
-				
+
+.firstUL {
+	padding:0px 0px 0px 10px;
+	margin:0px;
+	background-color: #3285ef;
+}
+
 .firstUL li {
-background: url(https://fronter.com/uia/links/files.phtml/727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg) no-repeat scroll 0 0;
-display: inline;
-font-size: 16pt;
-font-weight: bold;
-padding: 10px 15px 22px;
-line-height: 70px;
-cursor: pointer;
+	background:transparent url(link_sprite_img.jpg) no-repeat scroll 0 0;
+	display:inline;
+	font-family:Arial, Verdana, Tahoma;
+	font-size:16pt;
+	font-weight:bold;
+	padding:10px 15px 22px;
+	line-height:70px;
+	cursor:pointer;
 }
-				
+
 .firstUL li.selected {
-background: url(https://fronter.com/uia/links/files.phtml/727606634$936476613$/Fagstoff/Lab+_prcent_28individuelt_prcent_29/Filer+for+LAB4/link_sprite_img.jpg) no-repeat scroll 0px -58px;
-color: #ffffff;
-font-weight: bold;
+	background:transparent url(link_sprite_img.jpg) no-repeat scroll 0px -58px;
+	color:#ffffff;
+	font-weight:bold;
 }
-
-address{
-position: absolute;
-top: 550px;
-left: 600px;
-}
-
-#scroll {
-position: absolute;
-top: 30px;
-left: 600px;
-}
-
-dd{color: #ffffff; font-size: 15px;}
-
-dt{font-weight: bold;}
